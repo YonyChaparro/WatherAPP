@@ -66,5 +66,4 @@ function initApp() {
     .then((weatherData) => displayWeather(city, weatherData))
     .catch(handleError);
 }
-
 initApp();
